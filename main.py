@@ -33,11 +33,13 @@ class Test:
     #Places objects based upon "seed"
     if num == 1:
       canvas1.create_image(x-100,y+80,image=photo4,tag="4")
+      #Item classifications (left and right)
       left = "Hat"
       canvas1.create_image(x+100,y+80,image=photo5,tag="5")
       right = "Square"
     elif num == 2:
       canvas1.create_image(x-100,y+80,image=photo5,tag="4")
+      #Item classifications (left and right)
       left = "Square"
       canvas1.create_image(x+100,y+80,image=photo4,tag="5")
       right = "Hat"
